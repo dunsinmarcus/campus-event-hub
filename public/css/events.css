@@ -1,0 +1,298 @@
+/* Event Details Styles */
+
+.event-details {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.event-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.event-header h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.event-category-badge {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+.event-body {
+    padding: 2rem;
+}
+
+.event-meta {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.meta-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.meta-icon {
+    font-size: 1.5rem;
+    color: #3498db;
+    flex-shrink: 0;
+}
+
+.meta-content h4 {
+    margin-bottom: 0.3rem;
+    color: #2c3e50;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #7f8c8d;
+}
+
+.meta-content p {
+    font-size: 1rem;
+    color: #333;
+}
+
+.event-description {
+    margin-bottom: 2rem;
+}
+
+.event-description h3 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.event-description p {
+    line-height: 1.8;
+    color: #555;
+}
+
+.organizer-info {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 2rem;
+}
+
+.organizer-info h4 {
+    margin-bottom: 0.5rem;
+}
+
+.organizer-email {
+    color: #3498db;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.event-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+
+.event-actions button {
+    flex: 1;
+    min-width: 150px;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s;
+}
+
+.reminder-section {
+    background-color: #f0f8ff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+    border-left: 4px solid #3498db;
+}
+
+.reminder-section h4 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.reminder-options {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.reminder-option {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.reminder-option input[type="radio"] {
+    cursor: pointer;
+}
+
+.reminder-option label {
+    cursor: pointer;
+    margin: 0;
+}
+
+.reminder-time {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.reminder-time input,
+.reminder-time select {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.rsvp-section {
+    background-color: #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-top: 2rem;
+}
+
+.rsvp-status {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+.rsvp-status button {
+    padding: 0.7rem 1.5rem;
+    border: 2px solid #ddd;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    font-weight: bold;
+}
+
+.rsvp-status button:hover {
+    border-color: #3498db;
+    color: #3498db;
+}
+
+.rsvp-status button.selected {
+    background-color: #3498db;
+    color: white;
+    border-color: #3498db;
+}
+
+.attendees-list {
+    margin-top: 2rem;
+}
+
+.attendees-list h4 {
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.attendees-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.attendees-table th {
+    background-color: #f5f5f5;
+    padding: 1rem;
+    text-align: left;
+    font-weight: bold;
+    border-bottom: 2px solid #ddd;
+}
+
+.attendees-table td {
+    padding: 1rem;
+    border-bottom: 1px solid #eee;
+}
+
+.attendees-table tbody tr:hover {
+    background-color: #f9f9f9;
+}
+
+.my-events-list {
+    display: grid;
+    gap: 1rem;
+}
+
+.my-event-item {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #3498db;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.my-event-info h4 {
+    margin-bottom: 0.5rem;
+    color: #2c3e50;
+}
+
+.my-event-info p {
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.my-event-status {
+    background-color: #27ae60;
+    color: white;
+    padding: 0.4rem 1rem;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.my-event-status.interested {
+    background-color: #f39c12;
+}
+
+.my-event-status.declined {
+    background-color: #e74c3c;
+}
+
+@media (max-width: 768px) {
+    .event-meta {
+        grid-template-columns: 1fr;
+    }
+
+    .event-actions {
+        flex-direction: column;
+    }
+
+    .event-actions button {
+        flex: 1;
+        min-width: auto;
+    }
+
+    .attendees-table {
+        font-size: 0.9rem;
+    }
+
+    .attendees-table th,
+    .attendees-table td {
+        padding: 0.7rem;
+    }
+}

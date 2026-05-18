@@ -1,0 +1,74 @@
+# Campus Event Hub - Git Ignore File
+
+# Environment and configuration files
+.env
+config/database.php
+config/config.php
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.env.local
+
+# PHP files
+*.log
+.php_cs.cache
+/vendor/
+
+# Composer
+composer.lock
+
+# Node modules (if using npm/webpack in future)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Build and distribution
+/dist/
+/build/
+*.zip
+*.tar.gz
+
+# OS files
+Thumbs.db
+.directory
+
+# Temporary files
+/temp/
+/tmp/
+*.tmp
+
+# Session files
+sessions/
+*.sess
+
+# Cache files
+cache/
+.cache/
+
+# Upload directories (if added later)
+uploads/
+public/uploads/
+
+# Database backups
+*.sql.bak
+*.sql.backup
+backups/
+
+# SSL certificates (if using HTTPS)
+*.pem
+*.key
+*.crt
+
+# Testing
+coverage/
+.phpunit.result.cache
+
+# IDE specific
+.vscode/settings.json
+.vscode/launch.json
+.editorconfig
